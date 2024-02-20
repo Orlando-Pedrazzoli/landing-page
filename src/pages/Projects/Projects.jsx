@@ -7,7 +7,6 @@ import wheater_img from '../../assets/wheaterapp.png';
 function Projects() {
   return (
     <div className='parent'>
-      <h1>Projects</h1>
       <div className='project-link'>
         <a
           href='https://iron-surf-store.netlify.app/'
