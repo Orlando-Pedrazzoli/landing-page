@@ -7,7 +7,7 @@ function Navbar() {
       {' '}
       <header className='header'>
         <a href='#' className='logo'>
-          Portfolio
+          Orlando Pedrazzoli
         </a>
         <nav className='navbar'>
           <Link to='/' style={{ '--i': 1 }}>

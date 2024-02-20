@@ -1,0 +1,52 @@
+.parent {
+  margin-top: 80px;
+  text-align: center; /* Center-align the content */
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.project-link {
+  display: inline-block;
+  position: relative; /* Position relative for absolute positioning of text */
+  width: 30%; /* Set width to 30% to accommodate three links in a row */
+  margin: 44px 44px 0;
+}
+
+.project-link a {
+  display: block;
+  align-items: center;
+}
+
+.project-link img {
+  width: 100%;
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+.project-link .overlay {
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.project-link:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .project-link {
+    width: 90%; /* Set width to 90% for smaller screens */
+  }
+}
