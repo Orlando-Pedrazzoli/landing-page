@@ -1,5 +1,6 @@
 .parent {
   margin-top: 50px;
+  margin: 100px 100px 0 100px;
   text-align: center; /* Center-align the content */
 }
 
@@ -11,7 +12,7 @@ h1 {
   display: inline-block;
   position: relative; /* Position relative for absolute positioning of text */
   width: 30%; /* Set width to 30% to accommodate three links in a row */
-  margin: 44px 44px 0;
+  margin: 40px 40px 10px;
 }
 
 .project-link a {
