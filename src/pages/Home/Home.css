@@ -154,3 +154,36 @@
     transform: translateY(0);
   }
 }
+
+@media (max-width: 500px) {
+  .home-img img {
+    max-width: 250px;
+    margin-left: 70px;
+  }
+
+  .home-content h3 {
+    font-size: 22px;
+  }
+  .home-content h3:nth-of-type(2) {
+    margin-bottom: 30px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 0.7s;
+  }
+  .home-content h3 span {
+    color: #0ef;
+  }
+  .home-content h1 {
+    font-size: 45px;
+  }
+  .home-content p {
+    font-size: 14px;
+  }
+  .social-media a {
+    width: 27px;
+    height: 27px;
+  }
+  .btn {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+}
