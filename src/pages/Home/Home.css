@@ -46,7 +46,7 @@
 }
 .home-img img {
   border-radius: 5%;
-  max-width: 450px;
+  max-width: 350px;
   margin-right: 40px;
   opacity: 0;
   animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;

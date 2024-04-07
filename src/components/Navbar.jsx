@@ -5,7 +5,7 @@ import './Navbar.css';
 function Navbar() {
   const [activeLink, setActiveLink] = useState('');
 
-  const handleLinkClick = (link) => {
+  const handleLinkClick = link => {
     setActiveLink(link);
   };
 
