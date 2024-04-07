@@ -31,12 +31,7 @@ function NewLanding() {
 
   return (
     <div className='font-poppins  max-w-6xl m-auto relative'>
-      <header
-        className={`${
-          scrolling ? ' p-4 dark:bg-gray-100 dark:text-gray-800' : ''
-        } max-w-6xl m-auto fixed left-0 right-0 top-0 z-20 p-3 dark:bg-gray-100 dark:text-gray-800`}
-        id='home'
-      >
+      <header>
         <div className='container flex justify-between h-16 mx-auto max-w-6xl bg-black'>
           <a
             rel='noopener noreferrer'
