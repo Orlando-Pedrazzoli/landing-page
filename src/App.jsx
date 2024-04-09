@@ -31,7 +31,7 @@ function NewLanding() {
 
   return (
     <div className='font-poppins  max-w-6xl m-auto relative'>
-      <header>
+      <header className='fixed top-0 w-full z-50'>
         <div className='container flex justify-between h-20 mx-auto max-w-6xl bg-black'>
           <a
             rel='noopener noreferrer'
@@ -39,7 +39,7 @@ function NewLanding() {
             aria-label='Back to homepage'
             className='flex items-center p-2'
           >
-            <p className='font-bold text-sm:text-lg ml-4 md:ml-0 md:ml-4'>
+            <p className='font-bold text-sm:text-lg ml-2 md:ml-0 md:ml-2'>
               ORLANDO PEDRAZZOLI
             </p>
           </a>
@@ -63,8 +63,8 @@ function NewLanding() {
             </svg>
           </button>
           <ul
-            className={`items-center md:items-stretch md:space-x-3 md:flex ${
-              showMenu ? '' : 'hidden md:flex'
+            className={`items-center  md:items-stretch md:space-x-3 md:flex ${
+              showMenu ? 'flex-col' : 'hidden md:flex'
             } ${!showMenu ? ' justify-center' : ''} ${showMenu ? 'mt-4' : ''}`}
           >
             <li className='flex'>
