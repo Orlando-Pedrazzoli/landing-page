@@ -31,7 +31,7 @@ function NewLanding() {
 
   return (
     <div className='font-poppins  max-w-6xl m-auto relative'>
-      <header className='fixed top-0 w-full z-50'>
+      <header>
         <div className='container flex justify-between h-20 mx-auto max-w-6xl bg-black'>
           <a
             rel='noopener noreferrer'
