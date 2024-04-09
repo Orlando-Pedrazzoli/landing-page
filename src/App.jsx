@@ -296,7 +296,7 @@ function NewLanding() {
           </div>
         </section>
         {/* Technoglies section */}
-        <section className='py-10' id='technologies'>
+        <section className='m-8 py-10' id='technologies'>
           <div className='container m-auto px-4'>
             <h2 className='text-2xl font-semibold'>Frontend Development</h2>
             <div className='mt-8'>
@@ -507,12 +507,12 @@ function NewLanding() {
         </section>
 
         <section
-          className='mt-16 mb-16 py-6 bg-black text-white sm:dark:bg-gray-100 sm:dark:text-gray-900'
+          className='max-w-5xl m-auto mt-16 mb-16 py-6 bg-black text-white sm:dark:bg-gray-100 sm:dark:text-gray-900'
           id='contact'
         >
-          <div className='grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x'>
+          <div className='container grid max-w-5xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x'>
             <div className='py-6 md:py-0 md:px-6'>
-              <h1 className='text-4xl font-bold'>Get in touch</h1>
+              <h1 className='text-3xl font-bold'>Get in touch</h1>
               <p className='pt-2 pb-4'>
                 Fill in the form to start a conversation
               </p>
@@ -559,7 +559,7 @@ function NewLanding() {
             </div>
             <form
               novalidate=''
-              className='flex flex-col py-6 space-y-6 md:py-0 md:px-6'
+              className='flex m-6 flex-col py-6 space-y-6 md:py-0 md:px-6'
             >
               <label className='block'>
                 <span className='mb-1'>Name</span>
@@ -594,7 +594,7 @@ function NewLanding() {
           </div>
         </section>
       </main>
-      <footer>
+      <footer className='m-6'>
         <div className='container m-auto flex justify-between px-4 py-6'>
           <div>
             <p className='text-gray-300 text-sm'>Copyright @ 2024</p>
