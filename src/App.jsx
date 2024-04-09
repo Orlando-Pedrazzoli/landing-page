@@ -386,7 +386,7 @@ function NewLanding() {
           <div className=' container mt-16 mx-auto px-4'>
             <h2 className='ml-8 text-2xl font-semibold'>Experience</h2>
             <div className='mt-12 space-y-8'>
-              <div className='timeline-item'>
+              <div className='timeline-item pr-10'>
                 <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='left-0 text-lg font-semibold mb-2'>
                     Sep 2023 - Present
@@ -405,7 +405,7 @@ function NewLanding() {
                   </p>
                 </div>
               </div>
-              <div className='timeline-item'>
+              <div className='timeline-item pr-10'>
                 <div className='pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='left-0 text-lg font-semibold mb-2'>
                     Mar 2010 - Sep 2023
@@ -432,7 +432,7 @@ function NewLanding() {
                   </p>
                 </div>
               </div>
-              <div className='timeline-item'>
+              <div className='timeline-item pr-10'>
                 <div className='pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className=' left-0 text-lg font-semibold mb-2'>
                     Nov 2005 - Jan 2010
@@ -464,7 +464,7 @@ function NewLanding() {
                   </p>
                 </div>
               </div>
-              <div className='timeline-item'>
+              <div className='timeline-item pr-10'>
                 <div className='pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='left-0 text-lg font-semibold mb-2'>
                     Jan 2000 - Jul 2005
@@ -485,7 +485,7 @@ function NewLanding() {
                   </p>
                 </div>
               </div>
-              <div className='timeline-item'>
+              <div className='timeline-item pr-10'>
                 <div className='pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
                   <h3 className='left-0 text-lg font-semibold mb-2'>
                     Feb 1999 - Nov 1999
@@ -586,7 +586,7 @@ function NewLanding() {
               </label>
               <button
                 type='button'
-                className='self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-violet-600 dark:text-gray-50 focus:dark:ring-violet-600 hover:dark:ring-violet-600'
+                className='self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 dark:bg-blue-600 dark:text-gray-50 focus:dark:ring-blue-600 hover:dark:ring-blue-600'
               >
                 Submit
               </button>
