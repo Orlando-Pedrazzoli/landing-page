@@ -382,44 +382,130 @@ function NewLanding() {
         </section>
         {/* Additional skills section */}
 
-        <section className='py-8' id='aboutme'>
-          <div className='container mt-16 m-auto px-4'>
-            <h2 className='text-2xl font-semibold'>About me</h2>
-            <div className='mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 sm:before:bottom-2 before:w-1 before:bg-white'>
-              <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
-                <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
-                <p>
-                  Graduated KTC (Krasnodar Technical College) and for about two
-                  years worked with high voltage (35, 110kV) substations as the
-                  specialty electrician of emergency mobile crew. Later
-                  qualified as a Crossfit trainer.
-                </p>
+        <section className='py-8' id='experience'>
+          <div className='container mt-16 mx-auto px-4'>
+            <h2 className='text-2xl font-semibold'>Experience</h2>
+            <div className='mt-12 space-y-8'>
+              <div className='timeline-item'>
+                <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
+                  <h3 className='left-0 text-lg font-semibold mb-2'>
+                    Sep 2023 - Present
+                  </h3>
+                  <p>
+                    Career transition
+                    <br />
+                    Lisbon
+                    <br />
+                    In the process of switching careers to become a Full Stack
+                    Developer. Eager to learn and apply modern technologies to
+                    create user-friendly web applications. With a background in
+                    JavaScript, React, MongoDB, ExpressJS, Node, HTML, CSS, Git,
+                    GitHub and API, excited to contribute to dynamic teams and
+                    take on new challenges in the tech industry.
+                  </p>
+                </div>
               </div>
-              <div className='pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
-                <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
-                <p>
-                  Underwent a digital marketing course and started to work as a
-                  PPC and project manager in a local web studio. After 3 months
-                  started my own freelance practice.
-                </p>
+              <div className='timeline-item'>
+                <div className='pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
+                  <h3 className='left-0 text-lg font-semibold mb-2'>
+                    Mar 2010 - Sep 2023
+                  </h3>
+                  <p>
+                    Founder
+                    <br />
+                    Elite Surfing · Self-employed
+                    <br />
+                    Brazil · Remote
+                    <br />
+                    The company's production rights were transferred to a
+                    third-party entity concurrent with my relocation to
+                    Portugal. Previously I was responsible for:
+                    <br />
+                    - led the company's strategic vision and growth in the
+                    surfing industry.
+                    <br />
+                    - supervise end-to-end operations.
+                    <br />
+                    - drive innovative product development and management.
+                    <br />- market expansion initiatives, fostering a culture of
+                    excellence.
+                  </p>
+                </div>
               </div>
-              <div className='pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
-                <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
-                <p>
-                  Became more interested in IT and decided to try programming.
-                  Underwent Java course and made a project.
-                </p>
+              <div className='timeline-item'>
+                <div className='pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
+                  <h3 className=' left-0 text-lg font-semibold mb-2'>
+                    Nov 2005 - Jan 2010
+                  </h3>
+                  <p>
+                    Production Manager
+                    <br />
+                    PLP Importação e Exportação Ltda · Full-time
+                    <br />
+                    São Paulo e Região, Brasil · On-site
+                    <br />
+                    The company was responsible for importing, distributing, and
+                    manufacturing sports accessories for brands: FCS, Creatures
+                    of Leisure, Gorilla Grip, and Bullys.
+                    <br />
+                    As a production manager, I was responsible for:
+                    <br />
+                    - The entire production cycle for the Bullys brand, from
+                    inception to delivery.
+                    <br />
+                    - Recruitment processes.
+                    <br />
+                    - Creation of a comprehensive range of surfing accessories,
+                    encompassing covers, leashes, decks, and a variety of
+                    related items.
+                    <br />
+                    - Productivity reports.
+                    <br />- Production costs.
+                  </p>
+                </div>
               </div>
-              <div className='pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
-                <h3 className='absolute left-0 text-lg font-semibold'>2015</h3>
-                <p>
-                  Worked out in which field I want to build a developer's career
-                  and started to learn Frontend Development.
-                </p>
+              <div className='timeline-item'>
+                <div className='pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
+                  <h3 className='left-0 text-lg font-semibold mb-2'>
+                    Jan 2000 - Jul 2005
+                  </h3>
+                  <p>
+                    Chief Executive Officer
+                    <br />
+                    International Surfing Company South América Ltda. ·
+                    Self-employed
+                    <br />
+                    São Paulo e Região, Brasil · Hybrid
+                    <br />
+                    - License for the commercialization of the Australian brand
+                    WET DREAMS (surf accessories), exclusively throughout South
+                    America.
+                    <br />- Importation and distribution, operating along the
+                    entire coastal region of the Brazilian territory
+                  </p>
+                </div>
+              </div>
+              <div className='timeline-item'>
+                <div className='pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
+                  <h3 className='left-0 text-lg font-semibold mb-2'>
+                    Feb 1999 - Nov 1999
+                  </h3>
+                  <p>
+                    General Assistant
+                    <br />
+                    Wet Dreams Austrália · Full-time
+                    <br />
+                    Perth e Região, Austrália · On-site
+                    <br />
+                    General Assistant of the entire production line and quality
+                    control.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </section>
+
         <section
           className='mt-16 mb-16 py-6 dark:bg-gray-100 dark:text-gray-900'
           id='contact'
