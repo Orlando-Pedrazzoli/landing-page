@@ -105,14 +105,16 @@ function NewLanding() {
         </div>
       </header>
 
-      <main className='relative mt-28'>
+      <main className='relative mt-4 sm:mt-6 md:mt-8 lg:mt-10 xl:mt-12'>
         {/* Intro/Banner section */}
         <section>
           <div className='container m-auto px-4 pt-12 pb-12 sm:pt-20 flex flex-col sm:flex-row gap-6 text-center sm:text-left'>
             <div>
-              <h2 className='mt-10 font-bold text-4xl'>Hello, I'm Orlando,</h2>
+              <h2 className='mt-10 font-bold text-3xl sm:text-4xl'>
+                Hello, I'm Orlando,
+              </h2>
               <div>
-                <h2 className='font-bold text-4xl mt-1 gradiant-text'>
+                <h2 className='font-bold text-3xl mt-1 sm:mt-0 sm:text-4xl gradiant-text sm:gradiant-text-static'>
                   Full-Stack developer
                 </h2>
               </div>
@@ -155,7 +157,7 @@ function NewLanding() {
               <div className='after:bg-contain after:block after:bg-no-repeat after:w-[420px] after:h-[320px] after:absolute after:top-0 after:-left-20 sm:after:-left-40  '>
                 <img
                   src={Porfile}
-                  className='rounded-lg relative z-10 w-[280px] m-auto sm:w-[600px]'
+                  className='rounded-lg relative z-10 w-[280px] m-auto mt-8 sm:mt-0 sm:w-[600px]'
                 />
               </div>
             </div>
@@ -296,58 +298,84 @@ function NewLanding() {
         {/* Technoglies section */}
         <section className='py-10' id='technologies'>
           <div className='container m-auto px-4'>
-            <h2 className='text-2xl font-semibold'>Technologies</h2>
-            <div className='mt-14'>
+            <h2 className='text-2xl font-semibold'>Frontend Development</h2>
+            <div className='mt-8'>
               <div>
                 <div className='flex justify-between items-center'>
                   <h2 className='font-semibold'>HTML</h2>
-                  <p className='text-gray-500'>Advanced</p>
-                </div>
-                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
-              </div>
-              <div className='mt-8'>
-                <div className='flex justify-between items-center'>
-                  <h2 className='font-semibold'>CSS, Sass & Bootstrap</h2>
-                  <p className='text-gray-500'>Advanced</p>
                 </div>
                 <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
               </div>
               <div className='mt-8'>
                 <div className='flex justify-between items-center'>
                   <h2 className='font-semibold'>
-                    JavaScript, TypeScript, JQuery
+                    CSS (Tailwind CSS, Bootstrap, Material-UI, Ant Design)
                   </h2>
-                  <p className='text-gray-500'>Advanced</p>
                 </div>
                 <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
               </div>
               <div className='mt-8'>
                 <div className='flex justify-between items-center'>
-                  <h2 className='font-semibold'>UI design in Figma</h2>
-                  <p className='text-gray-500'>Advanced</p>
+                  <h2 className='font-semibold'>
+                    JavaScript | TypeScript | JQuery
+                  </h2>
                 </div>
-                <span className='w-[75%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+
+              <div className='mt-8'>
+                <div className='flex justify-between items-center'>
+                  <h2 className='font-semibold'>React | React Native</h2>
+                </div>
+                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
               </div>
               <div className='mt-8'>
                 <div className='flex justify-between items-center'>
-                  <h2 className='font-semibold'>Angular</h2>
-                  <p className='text-gray-500'>Advanced</p>
+                  <h2 className='font-semibold'>Responsive Web Design</h2>
                 </div>
-                <span className='w-[50%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+            </div>
+          </div>
+          <div className='container mt-20 m-auto px-4'>
+            <h2 className='text-2xl font-semibold'>Backend Development</h2>
+            <div className='mt-8'>
+              <div>
+                <div className='flex justify-between items-center'>
+                  <h2 className='font-semibold'>Node.js</h2>
+                </div>
+                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
               </div>
               <div className='mt-8'>
                 <div className='flex justify-between items-center'>
-                  <h2 className='font-semibold'>React</h2>
-                  <p className='text-gray-500'>Advanced</p>
+                  <h2 className='font-semibold'>Express.js</h2>
                 </div>
-                <span className='w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
               </div>
               <div className='mt-8'>
                 <div className='flex justify-between items-center'>
-                  <h2 className='font-semibold'>React Native</h2>
-                  <p className='text-gray-500'>Advanced</p>
+                  <h2 className='font-semibold'>MongoDB</h2>
                 </div>
-                <span className='w-[45%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md mb-16' />
+                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+            </div>
+          </div>
+          <div className='container mt-20 m-auto px-4'>
+            <h2 className='text-2xl font-semibold'>
+              Version Control and Collaboration
+            </h2>
+            <div className='mt-8'>
+              <div>
+                <div className='flex justify-between items-center'>
+                  <h2 className='font-semibold'>Git</h2>
+                </div>
+                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+              <div className='mt-8'>
+                <div className='flex justify-between items-center'>
+                  <h2 className='font-semibold'>GitHub</h2>
+                </div>
+                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
               </div>
             </div>
           </div>
@@ -355,7 +383,7 @@ function NewLanding() {
         {/* Additional skills section */}
 
         <section className='py-8' id='aboutme'>
-          <div className='container m-auto px-4'>
+          <div className='container mt-16 m-auto px-4'>
             <h2 className='text-2xl font-semibold'>About me</h2>
             <div className='mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 sm:before:bottom-2 before:w-1 before:bg-white'>
               <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
