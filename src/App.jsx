@@ -382,9 +382,9 @@ function NewLanding() {
         </section>
         {/* Additional skills section */}
 
-        <section className='py-8' id='experience'>
-          <div className='container mt-16 mx-auto px-4'>
-            <h2 className='text-2xl font-semibold'>Experience</h2>
+        <section className=' py-8' id='experience'>
+          <div className=' container mt-16 mx-auto px-4'>
+            <h2 className='ml-8 text-2xl font-semibold'>Experience</h2>
             <div className='mt-12 space-y-8'>
               <div className='timeline-item'>
                 <div className='pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]'>
@@ -507,7 +507,7 @@ function NewLanding() {
         </section>
 
         <section
-          className='mt-16 mb-16 py-6 dark:bg-gray-100 dark:text-gray-900'
+          className='mt-16 mb-16 py-6 bg-black text-white sm:dark:bg-gray-100 sm:dark:text-gray-900'
           id='contact'
         >
           <div className='grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x'>
@@ -539,7 +539,7 @@ function NewLanding() {
                     fill='currentColor'
                     className='w-5 h-5 mr-2 sm:mr-6'
                   >
-                    <path d='M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z'></path>
+                    <path d='M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5-V3z'></path>
                   </svg>
                   <span>+351 912164220</span>
                 </p>
