@@ -4,6 +4,7 @@ import Project2 from '../assets/project2.png';
 import Project3 from '../assets/project3.png';
 import Project4 from '../assets/project4.png';
 import ArrowDown from '../assets/arrow-down.svg';
+import cv_pdf from '../assets/orlando-resume.pdf';
 import { useEffect, useState } from 'react';
 
 function NewLanding() {
@@ -44,7 +45,7 @@ function NewLanding() {
             aria-label='Back to homepage'
             className='flex items-center p-2'
           >
-            <p className='font-bold text-xl'>ORLANDO PEDRAZZOLI</p>
+            <p className='font-bold text-xl'>ORLANDO </p>
           </a>
           <button
             className='flex justify-end p-4 md:hidden'

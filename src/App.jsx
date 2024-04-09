@@ -4,6 +4,7 @@ import Project2 from './assets/project2.png';
 import Project3 from './assets/project3.png';
 import Project4 from './assets/project4.png';
 import ArrowDown from './assets/arrow-down.svg';
+import cv_pdf from './assets/orlando-resume.pdf';
 import { useEffect, useState } from 'react';
 
 function NewLanding() {
@@ -129,15 +130,17 @@ function NewLanding() {
                 </p>
                 {/* Wrapper div for centering buttons on small screens */}
                 <div className='flex flex-col items-center sm:items-start'>
-                  <button class='mt-12 flex gap-3 cursor-pointer text-white font-semibold bg-gradient-to-t from-blue-500 to-cyan-500 px-5 sm:px-7 py-2 sm:py-3 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900 text-sm sm:text-base'>
-                    Download resume
-                  </button>
+                  <a href={cv_pdf} download>
+                    <button className='mt-12 flex gap-3 cursor-pointer text-white font-semibold bg-gradient-to-t from-blue-500 to-cyan-500 px-5 sm:px-7 py-2 sm:py-3 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900 text-sm sm:text-base'>
+                      Download resume
+                    </button>
+                  </a>
                   <a
                     href='https://github.com/Orlando-Pedrazzoli'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    <button class='mt-6 flex gap-3 cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-700 to-gray-800 px-5 sm:px-7 py-2 sm:py-3 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-white hover:border-gray-800 hover:from-black hover:to-gray-900 text-sm sm:text-base'>
+                    <button className='mt-6 flex gap-3 cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-700 to-gray-800 px-5 sm:px-7 py-2 sm:py-3 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-white hover:border-gray-800 hover:from-black hover:to-gray-900 text-sm sm:text-base'>
                       <svg
                         viewBox='0 0 24 24'
                         height='24'
