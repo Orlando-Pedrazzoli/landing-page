@@ -74,7 +74,7 @@ function NewLanding() {
                 href='#projects'
                 className='flex items-center px-4'
               >
-                Projects
+                Main Projects
               </a>
             </li>
             <li className='flex'>
@@ -172,7 +172,7 @@ function NewLanding() {
         {/* Projects section */}
         <section id='projects'>
           <div className='container m-auto px-4 sm:py-12'>
-            <h2 className='text-2xl font-semibold'>Projects</h2>
+            <h2 className='text-2xl font-semibold'>Main Projects</h2>
             <div className='flex flex-col sm:flex-row gap-10 mt-11'>
               <div className='border border-gray-500 rounded-md p-5 flex-1'>
                 <img src={Project2} className='w-full h-auto' />
